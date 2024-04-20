@@ -1,4 +1,4 @@
-### Asteroid-Classification
+# Asteroid-Classification
 Neural Network based classification of an Asteroid as Hazardous or Non-Hazardous using the dataset obtained from Kaggle.
 
 ## Data Collection
@@ -6,11 +6,11 @@ The dataset was obtained from Kaggle - https://www.kaggle.com/datasets/lovishban
 
 ## EDA
 
-# Distribution of Hazardous and Non-Hazardous Asteroid data:-
+### Distribution of Hazardous and Non-Hazardous Asteroid data:-
 
 <img width="384" alt="pie" src="https://github.com/AgKing3242/Asteroid-Classification/assets/139226792/2524e8c4-d314-4416-a090-72803c681c5e">
 
-# Histograms with the probability densities of the features based on the value of the target variable 'Hazardous'
+### Histograms with the probability densities of the features based on the value of the target variable 'Hazardous'
 
 <img width="426" alt="Relative Velocity km per hr" src="https://github.com/AgKing3242/Asteroid-Classification/assets/139226792/4a5bffff-2ffc-49ba-8b2d-1feaf1d6dfbc">
 
@@ -28,22 +28,22 @@ The dataset was obtained from Kaggle - https://www.kaggle.com/datasets/lovishban
 
 <img width="408" alt="Miss Dist (kilometers)" src="https://github.com/AgKing3242/Asteroid-Classification/assets/139226792/6d73ec49-89ac-4beb-964a-d03115117531">
 
-# Correlation Heatmap
+### Correlation Heatmap
 
 <img width="514" alt="Heatmap" src="https://github.com/AgKing3242/Asteroid-Classification/assets/139226792/04975b79-05d7-4db8-8ea2-e42779972d50">
 
-# Neural Network Architechture
+### Neural Network Architechture
 
 Input Layer : 8 Inputs
 Hidden Layer : 1 Hidden Layer with 4 Nodes
 Output Layer : Single Output with Sigmoid Activation
 
-# Training 
+### Training 
 
 <img width="408" alt="Accuracy" src="https://github.com/AgKing3242/Asteroid-Classification/assets/139226792/3f8cc5d0-d3bd-4664-9907-cc5abc98768b">
 
 <img width="408" alt="Loss" src="https://github.com/AgKing3242/Asteroid-Classification/assets/139226792/1e80964b-c4b6-4231-8e2e-e6eef685b624">
 
-# Results
+### Results
 
 The model achieved a testing accuracy of 85.02 %
